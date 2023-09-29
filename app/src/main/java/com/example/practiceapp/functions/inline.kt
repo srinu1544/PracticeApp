@@ -13,7 +13,7 @@ package com.example.practiceapp.functions
 
 
    */
-fun main() {
+inline fun main() {
 
     executeOperation {
      println("hii")
@@ -24,3 +24,5 @@ fun main() {
 inline fun executeOperation(action : () -> Unit) {
     return action()
 }
+
+
