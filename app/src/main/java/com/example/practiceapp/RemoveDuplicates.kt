@@ -1,5 +1,4 @@
 package com.example.practiceapp
-import android.util.ArraySet
 import java.util.Arrays
 
 fun removeDuplicates() {

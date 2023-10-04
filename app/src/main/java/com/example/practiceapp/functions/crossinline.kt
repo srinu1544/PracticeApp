@@ -8,9 +8,6 @@ package com.example.practiceapp.functions
  higher-order function*/
 
 
-inline fun higherOrderFunction(crossinline lambda: () -> Unit) {
-    // Function body
-}
 
 /*In this example, higherOrderFunction is an inline function that takes
 a lambda parameter marked with crossinline. This means that the lambda
@@ -20,13 +17,34 @@ would return control flow to the caller of higherOrderFunction.
 Here's an example to illustrate how crossinline works:*/
 
 
+inline fun compareInts(a:Int,b:Int, crossinline responce : (String) -> Unit){
+    println("settings up comparison")
+
+   val task = Runnable {
+       if (a > b) {
+           responce("a>b")
+       } else if (a < b) {
+           responce("a<b")
+
+       } else {
+           responce("a == b")
+       }
+   }
+    task.run()
+
+}
+
+
 fun main() {
-    higherOrderFunction {
-        println("Executing lambda")
-        // You can't use 'return' here if 'crossinline' is specified
+
+    compareInts(4,5){
+        println(it)
     }
 
-    println("After lambda")
+    compareInts(3,2) {
+        println(it)
+    }
+
 }
 
 
@@ -44,7 +62,7 @@ want to ensure that control flow remains within the immediate lexical scope
 of the lambda and doesn't escape to the outer function.
 
 
-
+link : https://www.youtube.com/watch?v=QsOXgTwLqIo&t=67s&ab_channel=KotlinBytes
 
 
  */

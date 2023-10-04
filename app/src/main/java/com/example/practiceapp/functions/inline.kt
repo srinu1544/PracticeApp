@@ -1,8 +1,9 @@
 package com.example.practiceapp.functions
 
 
-/* inline functions enhance the performance of higher order function
-   inline line function tells the compiler to copy perameters and functions to the call site
+/* lambda as a parameter
+   inline functions enhance the performance of higher order function
+   inline line function tells the compiler to copy parameters and functions to the call site
 
    Uses
    -----
