@@ -22,7 +22,7 @@
         </intent-filter>
         </activity>
         <activity
-            android:name=".navigation.Home"
+            android:name=".jetpackComponents.navigation.Home"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
