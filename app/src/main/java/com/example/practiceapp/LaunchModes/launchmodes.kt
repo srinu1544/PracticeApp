@@ -1,4 +1,4 @@
-package com.example.practiceapp
+package com.example.practiceapp.LaunchModes
 
 /*
 Launching modes :

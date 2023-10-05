@@ -104,10 +104,43 @@ yield :
 
 
 //Dispachers
+
+https://www.youtube.com/watch?v=3q5dvywJMfo&ab_channel=Smartherd
+
     Dispatchers.Io -> network request or desk read and write
     Dispatchers.Main -> main safety
-    Dispatchers.Default -> CPU intensive task
-    Dispatchers.Unconfined  ->
+
+    Dispatchers.Default :
+    ---------------------
+    -> CPU intensive task
+    -> this is similar to GlobalScope.launch{}
+    -> It will execute on separate background thread
+    -> after delay function also it will might be change thread
+
+    Dispatchers.Unconfined :
+    ------------------------
+    -> it is execute on parent
+    -> it inherits coroutine context from parent coroutine
+     -> after delay function also it will run on the other thread
+
+    with out any dispatcher (parameter) CONFINED  DISPATCHER  :
+    ----------------------------------------------
+
+     -> only launch means it runs on main thread
+     -> it inherits coroutine context from parent coroutine
+     -> after delay function also it will run on the same thread
+
+     launch{ // it runs on parent thread
+     }
+
+     like :
+
+     runBlock {
+      launch{ // it runs on parent thread
+       }
+     }
+
+
 
 
     Job :
@@ -145,8 +178,10 @@ Completed (final state)	false	true	  false            false
 
 
  */
-fun main() {
+fun main() = GlobalScope.launch(Dispatchers.IO){
 
 }
+
+
 
 
