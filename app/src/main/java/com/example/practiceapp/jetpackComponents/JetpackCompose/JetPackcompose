@@ -1,4 +1,7 @@
 
+https://www.youtube.com/watch?v=6_wK_Ud8--0&ab_channel=PhilippLackner
+https://developer.android.com/jetpack/compose/
+
 what is jetpack compose :
 
 Jetpack compose is a modern user interface
@@ -6,3 +9,19 @@ development toolkit for building android ui.
 
 with the help of jetpack compose,we can make
 more declarative ui code with few lines of code.
+
+
+box :
+-> Box to stack elements
+-> box layout similar to the frame layout
+-> In Jetpack Compose, a box is a component used to arrange objects in layers.
+-> child elements are stacked on top of each other.
+
+Column :
+-> arrange elements vertically.
+
+ Row :
+-> arrange items horizontally
+
+modifier:
+

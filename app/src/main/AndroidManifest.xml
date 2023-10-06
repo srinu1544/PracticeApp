@@ -13,13 +13,18 @@
         android:theme="@style/Theme.PracticeApp"
         tools:targetApi="31">
         <activity
+            android:name=".jetpackComponents.JetpackCompose.ComposeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_compose"
+            android:theme="@style/Theme.PracticeApp" />
+        <activity
             android:name=".coroutines.CoroutineActivity"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".jetpackComponents.navigation.Home"
@@ -28,9 +33,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.PracticeApp">
-
-        </activity>
+            android:theme="@style/Theme.PracticeApp"></activity>
     </application>
 
 </manifest>

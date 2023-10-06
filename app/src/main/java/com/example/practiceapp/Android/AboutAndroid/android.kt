@@ -1,7 +1,4 @@
 package com.example.practiceapp.Android
-
-
-
 /*
 ANDROID STUDIO VERDION : GIRRAFI
 
