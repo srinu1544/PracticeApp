@@ -1,5 +1,7 @@
 package com.example.practiceapp.Android.services/*
-package com.example.practiceapp
+
+Refer :
+https://developer.android.com/guide/components/services
 
 What is service and types of services ?
 ----------------------------------------
@@ -23,10 +25,42 @@ the user, such as syncing data or performing periodic checks.
 
 Bound Service:
 --------------
+ A service is bound when an application component binds to it by calling bindService().
+A bound service offers a client-server interface that allows components to interact with the
+service, send requests, receive results, and even do so across processes with interprocess
+communication (IPC). A bound service runs only as long as another application component is
+bound to it. Multiple components can bind to the service at once, but when all of them unbind,
+the service is destroyed.
+Although this documentation generally discusses started and bound services separately,
+your service can work both ways—it can be started (to run indefinitely) and also allow binding.
+It's simply a matter of whether you implement a couple of callback methods: onStartCommand()
+to allow components to start it and onBind() to allow binding.
 
-A bound service is a service that allows other components (typically activities) to bind to it and
-interact with it. Bound services are often used to share data or functionality between different
-parts of an app.
+Regardless of whether your service is started, bound, or both, any application component can use
+the service (even from a separate application) in the same way that any component can use an
+activity—by starting it with an Intent. However, you can declare the service as private in the
+manifest file and block access from other applications. This is discussed more in the section
+about Declaring the service in the manifest.
+
+started service :
+-----------------------------
+A started service is one that another component starts by calling startService(), which results in
+a call to the service's onStartCommand() method.
+
+When a service is started, it has a lifecycle that's independent of the component that started it.
+The service can run in the background indefinitely, even if the component that started it is
+destroyed. As such, the service should stop itself when its job is complete by calling stopSelf(),
+or another component can stop it by calling stopService().
+
+An application component such as an activity can start the service by calling startService()
+and passing an Intent that specifies the service and includes any data for the service to use.
+The service receives this Intent in the onStartCommand() method.
+
+For instance, suppose an activity needs to save some data to an online database. The activity can
+start a companion service and deliver it the data to save by passing an intent to startService().
+The service receives the intent in onStartCommand(), connects to the Internet, and performs the
+database transaction. When the transaction is complete, the service stops itself and is destroyed.
+
 
 Intent Service (Deprecated in Android 10+):
 -------------------------------------------
@@ -39,6 +73,8 @@ JobScheduler (Android 5.0+):
 JobScheduler is an API introduced in Android 5.0 (Lollipop) for scheduling background tasks that
 require specific conditions, such as network connectivity or device charging. It's used to optimize
 power consumption and network usage.
+
+* minimum interval time of is 15 min
 
 With the use of jobscheduler schedule a job when device met the specific condition
 Like :

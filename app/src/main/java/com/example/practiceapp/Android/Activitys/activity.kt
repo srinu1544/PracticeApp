@@ -30,4 +30,14 @@ like saving and restoring state, releasing resources, or handling configuration 
 
 Understanding the Android activity lifecycle is crucial for building robust and responsive Android applications.
 It allows developers to manage resources efficiently, save and restore user interface state, and handle
-interruptions gracefully.*/
+interruptions gracefully.
+
+how to maintain backstack in android activity :
+With the use of launch modes we maintain backstack in android
+
+Refer :
+https://medium.com/wiselteach/activity-back-stack-and-launch-mode-part-1-693130682120
+
+
+
+*/

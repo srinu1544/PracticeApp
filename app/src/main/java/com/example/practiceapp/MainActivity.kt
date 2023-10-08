@@ -13,6 +13,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.practiceapp.ui.theme.PracticeAppTheme
 
 class MainActivity : ComponentActivity() {
+
+    object Constants {
+        val MY_CONSTANT = "This is a constant"
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

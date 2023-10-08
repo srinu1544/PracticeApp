@@ -29,7 +29,7 @@ Users can access a wide variety of applications from the Google Play Store or ot
 
 App Ecosystem: The Android ecosystem boasts a vast library of applications, covering everything from
 productivity and entertainment to gaming and communication. Google Play Store is the official app
- distribution platform for Android, but there are alternative app stores as well.
+distribution platform for Android, but there are alternative app stores as well.
 
 Multitasking: Android supports multitasking, allowing users to run multiple apps simultaneously and easily
  switch between them.
@@ -39,8 +39,8 @@ by changing wallpapers, widgets, themes, and more. Manufacturers and developers 
 Android OS to suit their hardware and software needs.
 
 Security: Google regularly updates Android to enhance security and protect against vulnerabilities.
- Features like app sandboxing, permission controls, and Google Play Protect help maintain the security
-  of Android devices.
+Features like app sandboxing, permission controls, and Google Play Protect help maintain the security
+of Android devices.
 
 Device Diversity: Android is used on a wide range of devices beyond just smartphones and tablets,
 including smart TVs, smartwatches, automotive infotainment systems, and more. This diversity has
@@ -60,6 +60,20 @@ Please note that the information provided here is based on my knowledge as of Se
 may have been developments or changes in the Android ecosystem since that time.
 
 
+History of Android :
+Android was founded in October 2003 by Andy Rubin, Rich Miner, Nick Sears, and Chris White.
+The company was originally created to develop an operating system for digital cameras. In 2004,
+the project changed to become an operating system for smartphones.
+
+Google purchased Android, Inc. in 2005. There were at least two internal releases of the software
+inside Google and the Open Handset Alliance (OHA) before the beta version was released.
+
+
+Versions of Android:
+https://www.javatpoint.com/android-versions
+
+
+Features :
 Android 12 features:
 Link : https://www.android.com/intl/en_uk/android-12/
 
