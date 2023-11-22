@@ -2,6 +2,8 @@ package com.example.practiceapp.Kotlin.deligate.standard
 
 import kotlin.properties.Delegates
 
+/*when ever you want to observe the changes use observable */
+
 //Observable properties: listeners are notified about changes to this property.
 
 class Employ {

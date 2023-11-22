@@ -3,7 +3,10 @@ package com.example.practiceapp.Kotlin.functions
 
 /* lambda as a parameter
    inline functions enhance the performance of higher order function
-   inline line function tells the compiler to copy parameters and functions to the call site
+   inline function tells the compiler to copy parameters and functions to the call site
+
+   kotlin creates separate class and instance for every lambda internally
+
 
    Uses
    -----
@@ -14,7 +17,7 @@ package com.example.practiceapp.Kotlin.functions
 
 
    */
-inline fun main() {
+ fun main() {
 
     executeOperation {
      println("hii")
@@ -22,7 +25,7 @@ inline fun main() {
 
 }
 
-inline fun executeOperation(action : () -> Unit) {
+ inline fun executeOperation(action : () -> Unit) {
     return action()
 }
 

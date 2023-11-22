@@ -67,6 +67,58 @@ components. This approach provides compile-time safety and efficient dependency 
 your code more maintainable and testable.
 
 
+Di frame work
+
+Dagger 1 - square
+Dagger 2 - Google
+
+
+key functionality of dagger2
+
+1.injection
+2.dependencies grouped in modules
+3.components used to generate dependency graph
+4.Qualifiers
+5.Scopes
+6.subcomponents
+
+@Annotations are the key elements
+main type of annotations
+1.provider @module
+2.consumer @inject
+3.connector @component
+
+
+constructor injection - objects or values into a constructor in a class
+field injection - injecting variables and fields in a class
+rules : fields
+field must not be final
+method injection -
+method must not be private or final
+
+
+
+advantaged of dagger2 :
+Remove boiler plate code
+Users best practice for generate code
+Reusability
+memory management
+
+
+Direct acyclic graph (DAG)
+
+
+Order of injections :
+1 constructor injection
+2 field field injection
+3 method injection
+
+
+module :
+A module basically component that contribute the dependency graph it helps
+it helps us add components or elements or objects whatever you want to call them to our dependency
+
+
 
 
 */

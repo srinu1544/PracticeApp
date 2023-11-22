@@ -42,7 +42,7 @@ adb restore:
 Restores a previously created backup to the device.
 
 adb sideload <update.zip>:
- Sideloading is used for manually installing OTA
+Sideloading is used for manually installing OTA
 (Over-The-Air) updates or custom ROMs.
 
 adb forward <local> <remote>:

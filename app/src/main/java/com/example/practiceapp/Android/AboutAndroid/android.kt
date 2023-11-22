@@ -13,7 +13,8 @@ mobile platform, powering hundreds of millions of mobile devices in more than 19
 Android is based on a modified version of the Linux kernel and other open-source software. It includes
 an operating system, a GUI, a web browser, and downloadable applications.
 
-Android code is mainly written in Java, but other languages can be used. The Android platform provides a screen
+Android code is mainly written in Java, but other languages can be used. The Android platform provides
+ a screen
 to display applications. Applications can use services of the Android platform to
 
 

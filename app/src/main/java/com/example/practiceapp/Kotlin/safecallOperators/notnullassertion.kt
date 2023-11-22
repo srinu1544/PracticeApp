@@ -1,6 +1,9 @@
 package com.example.practiceapp.Kotlin.safecallOperators
 
-/*The not null assertion (!!) operator converts any value to a
+/*
+exclamation mark (!)
+
+The not null assertion (!!) operator converts any value to a
 non-null type and throws an exception if the value is null.
 If anyone want NullPointerException then he can ask explicitly
  using this operator.*/

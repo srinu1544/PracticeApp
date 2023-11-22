@@ -1,6 +1,11 @@
 package com.example.practiceapp.Kotlin.safecallOperators
 
-/*The Elvis operator will evaluate the left expression and will return
+/*
+
+colon (:)
+
+
+The Elvis operator will evaluate the left expression and will return
 it if it’s not null else will evaluate the right side expression.
 Please note that the right side expression will only be called if
 the left side expression is null.

@@ -75,7 +75,11 @@ complex operations from simpler ones.
 Higher-order functions are a fundamental feature of Kotlin that promote functional programming
 principles and enable you to write clean, reusable, and expressive code. They are particularly
 powerful when combined with lambda expressions and can make your code more modular and adaptable to
-changing requirements.*/
+changing requirements.
+
+*/
+
+
 
 
 

@@ -26,4 +26,14 @@ fun main(){
 
      val grater = 10.graterThan(11)
      println(grater)
+
+    val sub = 10.sub(5)
+    println(sub)
+}
+
+fun Int.sub(other : Int) : Int {
+
+    val result = this-other
+    return result
+
 }

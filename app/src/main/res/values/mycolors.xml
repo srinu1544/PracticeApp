@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="maroon">#932728</color>
+    <color name="harrier">#F1EA66</color>
+    <color name="litegreen">#78BA7B</color>
+    <color name="greenyellow">#ADFF2F </color> //
+    <color name="yellowgreen">#9ACD32  </color>
+    <color name="thickgreen">#1B5E20</color>
+    <color name="specialGreen">#009587</color> //
+    <color name="specialGreen2">#018859</color>
+    <color name="specialGreen3">#01A795</color>
+
+
+</resources>
