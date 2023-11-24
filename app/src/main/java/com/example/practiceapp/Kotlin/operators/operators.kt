@@ -6,11 +6,9 @@ Kotlin supports the following operators and special symbols:
 
 +, -, *, /, % - mathematical operators
 
-* is also used to pass an array to a vararg parameter.
+* - is also used to pass an array to a vararg parameter.
 
-=
-
-assignment operator.
+= - is assignment operator.
 
 is used to specify default values for parameters.
 
@@ -50,9 +48,7 @@ separates the parameters and return type declaration in a function type.
 
 separates the condition and body of a when expression branch.
 
-@
-
-introduces an annotation.
+@ - introduces an annotation.
 
 introduces or references a loop label.
 

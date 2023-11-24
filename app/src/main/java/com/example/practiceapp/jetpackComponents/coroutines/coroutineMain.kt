@@ -11,8 +11,16 @@ import kotlinx.coroutines.runBlocking
 /*
 what is coroutine:
 ------------------
-Coroutines are available for Kotlin. They execute long-running tasks without blocking
-the main thread or freezing the UI
+-> Coroutines are available for Kotlin. They execute long-running tasks without blocking
+the main thread or freezing the UI.
+
+-> In kotlin coroutines are a feature that allows you to write asynchronous , non-blocking code
+in a more sequential and structured manner.
+
+-> They are the part of kotlin library and provide a way to perform concurrent operations with
+out dealing with the complexities of traditional call b ack or thread - based approaches.
+
+
 
 
 suspend function :

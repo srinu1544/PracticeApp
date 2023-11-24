@@ -6,6 +6,7 @@ In the context of Android programming, "parsable" and "serializable" refer to tw
 transferring data between components or persisting data. Let's explore the differences between them:
 
 Parcelable:
+-----------
 Parcelable is an Android-specific interface that allows you to serialize and deserialize objects efficiently,
 especially for inter-process communication (IPC) within an Android application.
 Parcelable is optimized for performance, making it a better choice when you need to pass objects between
@@ -16,7 +17,8 @@ how the object's data is written to and read from a Parcel, a specialized Androi
 serialization.
 
 Serializable:
-Serializable is a Java interface that allows you to mark a class as serializable, which means the object's
+Serializable is a Java interface that allows you to mark a class as serializable,
+which means the object's
 state can be converted into a stream of bytes and then reconstructed from that stream.
 Serializable is a more general-purpose approach and can be used in non-Android Java applications as well.
 While Serializable is easier to implement (just implement the interface), it tends to be less efficient

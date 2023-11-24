@@ -1,39 +1,89 @@
 package com.example.practiceapp.AAAA_ALL_Questions
 
+
+/*
+
+! - asked in interviews
+@ - it is in practicd app file
+# - study completed
+$ - Details in MyFrameWork project
+
+* */
+
 /*Questions
 
 Kotlin,Java and Android
-=================
-1)what is kotlin
-2)Keyfeatures in kotlin
-3)Advangtages of kotlin
-4)variables in kotlin
-5)data types in kotlin
-6)what are the functios in kotlin? types?
-7)inline function in Kotlin
-8)higher order functionss
-9)lambda function
-10)kotlin safe call operators
-11)init block in kotlin?
-12)super keyword
-13)final keyword
-14)finally block
-15)difference bw finally and final
-16)synchronization vs asynchronization
-17)What difference between Val and var?
-18)Kotlin how to initialize static variables?
-19)what is lateinit in kotlin?
-20)what is lazy keyword in kotlin?
-21)what is companion object
-22)what is backing property in kotlin
-23)how to declare object in kotlin?
-24) destructuring
-25) what is componentN in data class
+=======================
+
+KOtlin
+=======
+
+what is kotlin         - @#
+Keyfeatures in kotlin  - @#
+Advangtages of kotlin  - @#
+variables in kotlin    - @#
+data types in kotlin   - @#
+
+what are the functios in kotlin? types?
+---------------------------------------
+Top - level function    -  @#
+member function         -  @#
+lambda                  -  @#
+higher order function   -  @#
+extension function      -  @#
+infix function          -  @#
+inline function         -  @#
+noinline                -  @#
+cross inline            -  @#
+invoke                  -  @#
+operation overload      -  @#
+tailrec                 -  @#
+recursion               -  @#
+
+classes & objects :
+-------------------
+
+
+
+kotlin null safe call operators : -  @#
+---------------------------------
+safe call operator(?.)
+safe call with let ( let)
+elivis operator (?:)
+not- null assertion (!!)
+
+scope function in kotlin :     - @#
+--------------------------
+apply
+with
+also
+run
+
+init block in kotlin? - @#
+super keyword         - @#
+final keyword         - @#
+finally block         - @#
+difference bw finally and final - @#
+synchronization vs asynchronization @#
+What difference between Val and var? @#
+Kotlin how to initialize static variables? @#
+what is companion object  @#
+what is lateinit in kotlin? @#
+what is lazy keyword in kotlin? @#
+
+what is backing property in kotlin  @#
+backing field                       @#
+how to declare object in kotlin?    @#
+destructuring                       @#
+what is componentN in data class    @#
+varargs                             @#
+invoke                              @#
+operator                            @#
 
 oops
 ====
-what is polymorphisam
-diff overloading overriding
+what is polymorphisam          @#
+diff overloading overridingvv
 what is encapsulation
 what is inheritance
 what is abstraction
@@ -50,8 +100,8 @@ difference between String n = "srinu " and string n = new String("srinu") in jav
 
 Android components
 ==================
-what is activity? and activity life cycle
-what is fragment and life cycle of fragment? How to maintain back stack in fragments?
+what is activity? and activity life cycle         @#
+what is fragment and life cycle of fragment? How to maintain back stack in fragments?  @#
 what is service? types of services? service life cycle
 content providers?
 broadcast receivers? and types
@@ -69,38 +119,36 @@ what is an async task method?
 
 intents
 --------
-what is intent
-what is intent filter
-how to pass data bw two intents
-how to pass objects like class through two intents
-how to pass data bw two fragments
-what is parsable
-what is serializable
-what is a Flag task?
-launching modes?
-what is pending intent in Android?
+what is intent                      @#
+what is intent filter               @#
+how to pass data bw two intents     @#
+how to pass data bw two fragments   @#
+what is a Flag task?                @#
+Launchmodes?                        @#
+what is pending intent in Android?  @#
 
 layouts and XML
 ----------------
-Types of layouts?
-what is constraint layout?
-What is frame layout
-what is the navigation XML file in Android?
-how to change the normal layout to the data binding layout.
-difference between include and merge in XML
+Types of layouts?           @#
+what is constraint layout?  @#
+What is frame layout        @#
+difference between include and merge in XML  @#
+
+
 
 
 Jetpack Components
 ------------------
-what are Coroutines
-what is MVVM
-what is dependency injection
-what is view model
-what is livedata
-what is data binding
-what is view binding
-what is RxJava , RxAndroid
-What is the navigation
+what are Coroutines    @#
+what is MVVM           @#
+what is dependency injection  @#
+what is view model            @#
+what is livedata              @#
+what is data binding          @#
+what is view binding          @#
+what is RxJava , RxAndroid    @#
+navigation (xml)                   (code is in own framework project)
+navigation (compose)               (code is in own framework project)
 what is a Repository?
 
 
@@ -201,21 +249,38 @@ what is deep linking
 what is androidx
 what is ktx
 what is just and promt in kotlin
+differences bw arrays and mutablelist and immutable list
+difference bw room and sqlite? which is faster?
+
+solid principals - !
+state in jetpack compose  - !
+dispatches in  coroutines - !
+with out higher order function can we use lambda expression - !
+what isinterpolation string - !
+gio fenceing - !
+uses of maps - !
+duplicate string - !
+what is manifest file - !
 
 
 
 architectural pattern
 ---------------------
-MVC,MVP , mvvm
+MVC,MVP,mvvm
 
 Creational design pattern
 -------------------------
-Factory pattern, Abstract Factory pattern, Singleton pattern, Builder pattern, and prototype pattern are examples of creational design patterns. These are mainly involved with the creation of objects.
+Factory pattern,
+Abstract Factory pattern,
+Singleton pattern,
+Builder pattern,
+and prototype pattern are examples of creational design patterns.
+These are mainly involved with the creation of objects.
 
 
 
-Threads and coroutines
-----------------------
+Threads
+-------
 what is thread
 what is multi threading
 When would you use a Java thread instead of an AsyncTask?
@@ -229,6 +294,7 @@ Thread.sleep
 suspend
 runblocking
 coroutines - await ,async
+how to write parallel tasks
 
 
 codes have to write
@@ -316,14 +382,11 @@ APK - Android Package Kit
 
 
 useful links
+------------
 https://www.youtube.com/watch?v=8OdId23cmCU   --  jetpack compose.
 
 
 
-mainly learn
-room'
-rx java
-rx android
-dependency injection
-compose
+
+
 */

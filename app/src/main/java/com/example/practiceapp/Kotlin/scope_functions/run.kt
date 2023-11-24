@@ -1,7 +1,5 @@
 package com.example.practiceapp.Kotlin.scope_functions
 
-import com.example.practiceapp.Kotlin.classes.Persion
-
 
 /*
 combination of with , let
