@@ -11,6 +11,9 @@
     <color name="specialGreen">#009587</color> //
     <color name="specialGreen2">#018859</color>
     <color name="specialGreen3">#01A795</color>
+    <color name="chairgreen">#277487</color>
+    <color name="yellow">#FDD261</color>
+    <color name="orrange">#F7853E</color>
 
 
 </resources>
