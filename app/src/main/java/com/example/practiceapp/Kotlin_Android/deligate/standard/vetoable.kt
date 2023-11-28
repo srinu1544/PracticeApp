@@ -19,7 +19,7 @@ class Worker {
 
 fun main(){
 
-    var worker = com.example.practiceapp.Kotlin.deligate.standard.Worker()
+    val worker = Worker()
     worker.age = 17
 
 

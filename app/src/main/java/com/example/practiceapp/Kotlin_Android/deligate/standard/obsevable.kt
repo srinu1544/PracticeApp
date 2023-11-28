@@ -17,7 +17,7 @@ class Employ {
 
 fun main(){
 
-    val employ = com.example.practiceapp.Kotlin.deligate.standard.Employ()
+    val employ = Employ()
     employ.salary = 60
     employ.salary = 70
 

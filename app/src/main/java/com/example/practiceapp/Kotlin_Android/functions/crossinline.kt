@@ -37,11 +37,11 @@ inline fun compareInts(a:Int,b:Int, crossinline responce : (String) -> Unit){
 
 fun main() {
 
-    com.example.practiceapp.Kotlin.functions.compareInts(4, 5) {
+    compareInts(4, 5) {
         println(it)
     }
 
-    com.example.practiceapp.Kotlin.functions.compareInts(3, 2) {
+    compareInts(3, 2) {
         println(it)
     }
 

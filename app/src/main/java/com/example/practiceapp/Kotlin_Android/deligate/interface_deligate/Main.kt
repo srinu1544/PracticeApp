@@ -1,7 +1,7 @@
 package com.example.practiceapp.Kotlin_Android.deligate.interface_deligate
 
 class  FileDownloader(private val file : String )  :
-    com.example.practiceapp.Kotlin.deligate.interface_deligate.Downloadr {
+   Downloadr {
     override fun download() {
         println("$file downloaded")
     }
@@ -10,7 +10,7 @@ class  FileDownloader(private val file : String )  :
 
 
 class FilePlayer(private val file : String) :
-    com.example.practiceapp.Kotlin.deligate.interface_deligate.Playerr {
+    Playerr {
     override fun play() {
         println("$file playing")
     }
@@ -37,7 +37,7 @@ class MediaFile(private val downloadr: Downloadr,
 
 fun main(){
 
-    val file : String = "File.mkv"
+    val file  = "File.mkv"
     val mediaFile = MediaFile(
        FileDownloader(file),
         FilePlayer(file)
