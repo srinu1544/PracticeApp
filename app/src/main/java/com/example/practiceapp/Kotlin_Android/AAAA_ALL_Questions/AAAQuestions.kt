@@ -164,6 +164,7 @@ difference bw thread and async task
 difference between service and intent service
 what is an async task method?
 types of services? service life cycle
+AIDL
 
 
 content providers?
@@ -209,137 +210,10 @@ navigation (compose)          @#     (code is in own framework project)
 what is a Repository?         @#
 
 
-
-differences
------------
-difference bw == operator and equals method - @#
-difference bw data binding and view binding - @#
-difference bw final finally and finalize    - @#
-mutable vs immutable?                       - @#
-flavors and builds                          - @#
-diff bw fragmentPageAdapter and FragmentStatePageAdapter - @#
-difference between apk and .aab                         -  @#
-difference between push notifications and notification. - @#
-What's the difference between commit() and apply() -      #$
-What is the difference between the socket and restful API? @#
-difference between MVP, MVC, and MVVM?                    -@#
-difference between the compiled SDK version and the target SDK version? - @#
-The main differences between registering a BroadcastReceiver in the Manifest and registering it programmatically?
-difference between AppCompatActivity and AppActivity?      - @#
-differences bw arrays and mutable and immutable          -   @#
-difference bw room and sqlite? which is faster?  -        - @#
-serialazation and deserialisation                           @#
-difference between .dex and JVM                             @#
-difference between UI and the main thread                  -@#
-What are Threads and Handlers?                             -@#
-diff bw handlers and looper                                -@#
-difference bw throw and throws                             -@#
-difference between Mavin and Gradle?                       -@#
-drfference between view and viewGroup                      -@#
-difference bw finally and final - @#
-synchronization vs asynchronization @#
-What difference between Val and var? @#
-difference between interface and abstract class?
-difference between singleton class and class?
-sealed class, sealed interface
-diff overloading overriding
-
-
-
-others
-=======
-
-How do we get data from another application :
-Ans : use of shared prer
-how to call const object in koltin form java - @#
-what is user  permissions
-what is AIDL
-What is  Multidex?
-What is ANR? How can the ANR be prevented?
-Explain Looper, Handler, and HandlerThread
-What is ADB? - any ADB commands
-What is DVM in Android?
-what is ART in android?
-Internal process of Build apk
-What are the design patterns? like singleton   -- https://www.softwaretestinghelp.com/design-patterns-in-java/
-how to create a horizontal recycler view in Android?
-What is the image loader in Android?
-what are the third-party libraries used?
-What's soap in Android?
-what is Gson?
-what is JSON?
-what are the access modifier in korlin?
-What is the view and life cycle?
-what is the current version using android studio?
-Ans : Android Studio Flamingo | 2022.2.1 Patch 2
-how to handle screen rotation?
-What is ANR? How do you handle ANR?
-what is a memory leak? how to avoid memory leak in Android?
-what are build variants?                                      -@#
-what are flavours in Android?
-Looper, Handler, message queue, and HandlerThread?
-What is the difference between HTML5 & HTML?
-what is ThreadPoolExecuter?
-media player? different types?
-espresso?
-Mockito?
-
-what is finally Block?
-what is the try-catch and throws clause?
-what is the covariant return type?
-how do I upload an image to the network?
-What are the annotations present in core Java?
-what is the sha1 key? how to create it in Android Studio?
-what is time complexability?
-what is Moshi?
-Features of android 12 and 13
-how to handle multiple screen sizes
-what are the background limitations
-what is geofence
-what is geocoder
-How to get users walking, and running events?
-Java Garbage Collections and Memory Management.
-ADB and ADB Commands
-GIT Commands
-How to build an App Without Android Studio.
-How do you communicate between two applications?
-How do we pass the video data from one application to another?
-How do we Use Authentication?
-How do we Inspect Network Calls?
-What is WebView and how do we control WebView in different android versions?
-How do we check the crashes?
-Why two gradles in android project
-how to upload profile pic without third party library?
-what is iot
-what is mqtt
-what is singleton class
-explain mvvm with login screen
-Doze mode ?
-Bluetooth
-conflict changes like orientation in Android
-when, with
-trailing lambda in kotlin -
-context in composible function -
-what is deep linking -
-what is androidx -
-what is ktx -
-what is just and promt in kotlin -
-solid principals -
-state in jetpack compose  -
-dispatches in  coroutines -
-with out higher order function can we use lambda expression -
-what is interpolation string -
-duplicate string -
-what is manifest file -
-DVM
-JVM
-android architecture
-shared sheet
-destructure
-
-
 code
 -----
+duplicates
+array list
 
 
 architectural pattern
@@ -457,11 +331,170 @@ Uniform Resource Identifiers (URIs)
 APK - Android Package Kit
 (ART) - Android Runtime
 (AOT) - Ahead-Of-Time
+(AOSP) - android open source project
+
 
 
 useful links
 ------------
 https://www.youtube.com/watch?v=8OdId23cmCU   --  jetpack compose.
+
+
+
+differences
+-----------
+difference bw == operator and equals method - @#F
+difference bw data binding and view binding - @#
+difference bw final finally and finalize    - @#
+mutable vs immutable?                       - @#
+flavors and builds                          - @#
+diff bw fragmentPageAdapter and FragmentStatePageAdapter - @#
+difference between apk and .aab                         -  @#
+difference between push notifications and notification. - @#
+What's the difference between commit() and apply() -      #$
+What is the difference between the socket and restful API? @#
+difference between MVP, MVC, and MVVM?                    -@#
+difference between the compiled SDK version and the target SDK version? - @#
+The main differences between registering a BroadcastReceiver in the Manifest and registering it programmatically?
+difference between AppCompatActivity and AppActivity?      - @#
+differences bw arrays and mutable and immutable          -   @#
+difference bw room and sqlite? which is faster?  -        - @#
+serialazation and deserialisation                           @#
+difference between .dex and JVM                             @#
+difference between UI and the main thread                  -@#
+What are Threads and Handlers?                             -@#
+diff bw handlers and looper                                -@#
+difference bw throw and throws                             -@#
+difference between Mavin and Gradle?                       -@#
+drfference between view and viewGroup                      -@#
+difference bw finally and final - @#
+synchronization vs asynchronization @#
+What difference between Val and var? @#
+difference between interface and abstract class?
+difference between singleton class and class?
+sealed class, sealed interface
+diff overloading overriding
+diff bw R8 and proguard                                    -@#?
+
+
+
+
+others
+=======
+
+How do we get data from another application :
+Ans : use of shared prer
+
+how to call const object in koltin form java - @#
+
+what is user  permissions                       @#
+
+
+What is  Multidex?                              @#
+ANS : 64 k method
+
+What is ANR? How can the ANR be prevented?      @#
+Ans : application  not responce
+
+Looper
+ans : Looper is a class which is used to execute the Messages(Runnables) in a queue.
+
+Handler
+ans : A Handler in Kotlin is a class that allows you to schedule and execute tasks on the UI thread
+
+HandlerThread :
+ A thread handler is a class that uses three main components to handle these actions
+
+
+What is ADB? - any ADB commands - @#
+
+What is DVM in Android?
+what is ART in android?
+Internal process of Build apk
+What are the design patterns? like singleton   -- https://www.softwaretestinghelp.com/design-patterns-in-java/
+how to create a horizontal recycler view in Android?
+What is the image loader in Android?
+what are the third-party libraries used?
+What's soap in Android?
+what is Gson?
+what is JSON?
+what are the access modifier in korlin?
+What is the view and life cycle?
+what is the current version using android studio?
+Ans : Android Studio Flamingo | 2022.2.1 Patch 2
+how to handle screen rotation?
+What is ANR? How do you handle ANR?
+what is a memory leak? how to avoid memory leak in Android?
+what are build variants?                                      -@#
+what are flavours in Android?
+Looper, Handler, message queue, and HandlerThread?
+What is the difference between HTML5 & HTML?
+what is ThreadPoolExecuter?
+media player? different types?
+espresso?
+Mockito?
+what is finally Block?
+what is the try-catch and throws clause?
+what is the covariant return type?
+how do I upload an image to the network?
+What are the annotations present in core Java?
+what is the sha1 key? how to create it in Android Studio?
+what is time complexability?
+what is Moshi?
+Features of android 12 and 13
+how to handle multiple screen sizes
+what are the background limitations
+what is geofence
+what is geocoder
+How to get users walking, and running events?
+Java Garbage Collections and Memory Management.
+ADB and ADB Commands
+GIT Commands
+How to build an App Without Android Studio.
+How do you communicate between two applications?
+How do we pass the video data from one application to another?
+How do we Use Authentication?
+How do we Inspect Network Calls?
+What is WebView and how do we control WebView in different android versions?
+How do we check the crashes?
+Why two gradles in android project
+how to upload profile pic without third party library?
+what is iot
+what is mqtt
+what is singleton class
+explain mvvm with login screen
+Doze mode ?
+Bluetooth
+conflict changes like orientation in Android
+when, with
+trailing lambda in kotlin -
+context in composible function -
+what is deep linking -
+what is androidx -
+what is ktx -
+what is just and promt in kotlin -
+solid principals -
+state in jetpack compose  -
+dispatches in  coroutines -
+with out higher order function can we use lambda expression -
+what is interpolation string -
+duplicate string -
+what is manifest file -
+DVM
+JVM
+android architecture
+shared sheet
+destructure
+
+
+what happen if duplicate keys in hashMap ? --  imp
+ans : A Java HashMap cannot have duplicate keys. If a key already exists in the HashMap, the old
+value associated with that key is replaced with the new value, override with new value.
+
+flow
+stateflow
+sharedFlow
+livedata
 
 
 

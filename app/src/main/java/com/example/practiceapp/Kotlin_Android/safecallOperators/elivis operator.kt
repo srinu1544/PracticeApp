@@ -2,7 +2,7 @@ package com.example.practiceapp.Kotlin_Android.safecallOperators
 
 /*
 
-colon (:)
+colon (?:)
 
 
 The Elvis operator will evaluate the left expression and will return
@@ -28,7 +28,8 @@ The following expression: */
 val name = firstName ?:  "unknown"
 
 fun main(){
-    println(name)
+    //println(name)
+    elevis()
 }
 
 
@@ -38,3 +39,19 @@ val name = if(firstName!= null)
     firstName
 else
     "Unknown"*/
+
+
+
+fun elevis(){
+
+    var str : String? = "srinivas"
+
+    val result  = str?.length ?: "srinivas"
+
+    println(result)
+
+
+}
+
+
+

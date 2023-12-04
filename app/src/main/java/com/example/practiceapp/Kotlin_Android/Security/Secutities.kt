@@ -1,26 +1,32 @@
 package com.example.practiceapp.Kotlin_Android.Security
 
-/*Security is a critical aspect of Android app development, as mobile devices often handle sensitive user data and perform various transactions. Here are some key security considerations for Android app development:
+/*Security is a critical aspect of Android app development, as mobile devices often handle sensitive
+user data and perform various transactions. Here are some key security considerations for Android
+app development:
 
 Secure Communication:
-Use HTTPS for network communication to encrypt data transmitted between the app and your server. You can use libraries like OkHttp or Retrofit with TLS/SSL support.
+Use HTTPS for network communication to encrypt data transmitted between the app and your server.
+You can use libraries like OkHttp or Retrofit with TLS/SSL support.
 Implement certificate pinning to ensure that your app only communicates with trusted servers.
 
 Data Encryption:
-Use encryption algorithms like AES to protect sensitive data stored on the device or transmitted over the network.
+Use encryption algorithms like AES to protect sensitive data stored on the device or transmitted
+over the network.
+
 Store encryption keys securely using Android's Keystore API.
 
 Authentication:
-Implement strong user authentication mechanisms, such as fingerprint or biometric authentication, in addition to strong
-passwords.
+Implement strong user authentication mechanisms, such as fingerprint or biometric authentication,
+in addition to strong passwords.
 Avoid storing passwords in plain text and use secure authentication protocols like OAuth 2.0.
 
 Authorization:
-Ensure that your app's permissions are set appropriately and that users have control over what data and device
-features your app can access.
+Ensure that your app's permissions are set appropriately and that users have control over what
+ data and device features your app can access.
 
 Code Obfuscation:
-Obfuscate your code using tools like ProGuard or R8 to make it harder for attackers to reverse-engineer your app.
+Obfuscate your code using tools like ProGuard or R8 to make it harder for
+attackers to reverse-engineer your app.
 
 
 Secure Storage:

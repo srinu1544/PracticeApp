@@ -1,7 +1,7 @@
 package com.example.practiceapp.Kotlin_Android.safecallOperators
 
 /*
-exclamation mark (!)
+double exclamation mark (!!)
 
 The not null assertion (!!) operator converts any value to a
 non-null type and throws an exception if the value is null.

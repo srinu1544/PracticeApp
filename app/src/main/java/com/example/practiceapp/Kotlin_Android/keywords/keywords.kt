@@ -2,223 +2,384 @@ package com.example.practiceapp.Kotlin_Android.keywords
 
 /*
 
- -> by
 
-delegates the implementation of an interface to another object.
-delegates the implementation of the accessors for a property to another object.
+please refer : https://kotlinlang.org/docs/keyword-reference.html
 
-as
 
-is used for type casts.
+These keywords are reserved words that have special meaning to the Kotlin compiler.
+ They cannot be used as identifiers for variables, functions, or classes
 
-specifies an alias for an import
 
-as? is used for safe type casts.
+ Hardkeywords :
+ ==============
 
-break terminates the execution of a loop.
+ as
+ ---
+ is used for type casts.
+ specifies an alias for an import
 
-class declares a class.
+ as?
+ ---
+ is used for safe type casts.
 
-continue proceeds to the next step of the nearest enclosing loop.
+ break
+ -----
+ terminates the execution of a loop.
 
-do begins a do/while loop (a loop with a postcondition).
+ class
+ -------
+ declares a class.
 
-else defines the branch of an if expression that is executed when the condition is false.
+ continue
+ ---------
+ proceeds to the next step of the nearest enclosing loop.
 
-false specifies the 'false' value of the Boolean type.
+ do
+ ---
+ begins a do/while loop (a loop with a postcondition).
 
-for begins a for loop.
+ else
+ -----
+ defines the branch of an if expression that is executed when the condition is false.
 
-fun declares a function.
+ false
+ -------
+ specifies the 'false' value of the Boolean type.
 
-if begins an if expression.
+ for
+ ----
+ begins a for loop.
 
-in
+ fun
+ -----
+ declares a function.
 
-specifies the object being iterated in a for loop.
+ if
+ ---
+ begins an if expression.
 
-is used as an infix operator to check that a value belongs to a range, a collection, or another entity that defines a 'contains' method.
+ in
+ --
 
-is used in when expressions for the same purpose.
+ specifies the object being iterated in a for loop.
 
-marks a type parameter as contravariant.
+ is used as an infix operator to check that a value belongs to a range, a collection,
+ or another entity that defines a 'contains' method.
 
-!in
+ is used in when expressions for the same purpose.
 
-is used as an operator to check that a value does NOT belong to a range, a collection, or another entity that defines a 'contains' method.
+ marks a type parameter as contravariant.
 
-is used in when expressions for the same purpose.
+ !in
+ ---
+ is used as an operator to check that a value does NOT belong to a range, a collection,
+ or another entity that defines a 'contains' method.
 
-interface declares an interface.
+ is used in when expressions for the same purpose.
 
-is
+ interface
+ ---------
+ declares an interface.
 
-checks that a value has a certain type.
+ is
+ --
+ checks that a value has a certain type.
+ is used in when expressions for the same purpose.
 
-is used in when expressions for the same purpose.
+ !is
+ ---
 
-!is
+ checks that a value does NOT have a certain type.
+ is used in when expressions for the same purpose.
 
-checks that a value does NOT have a certain type.
+ null
+ -----
+ is a constant representing an object reference that doesn't point to any object.
 
-is used in when expressions for the same purpose.
+ object
+ ------
+ declares a class and its instance at the same time.
 
-null is a constant representing an object reference that doesn't point to any object.
+ package
+ -------
+ specifies the package for the current file.
 
-object declares a class and its instance at the same time.
+ return
+ ------
+ returns from the nearest enclosing function or anonymous function.
 
-package specifies the package for the current file.
-
-return returns from the nearest enclosing function or anonymous function.
-
-super
+ super
+ -----
 
 refers to the superclass implementation of a method or property.
 
 calls the superclass constructor from a secondary constructor.
 
-this
+ this
+ ----
+refer current object
 
 refers to the current receiver.
 
 calls another constructor of the same class from a secondary constructor.
 
-throw throws an exception.
+throw
+-----
+throws an exception.
 
-true specifies the 'true' value of the Boolean type.
+true
+-----
+specifies the 'true' value of the Boolean type.
 
-try begins an exception-handling block.
+ try
+ ---
+ begins an exception-handling block.
 
-typealias declares a type alias.
+ typealias
+ ---------
+ declares a type alias.
 
-typeof is reserved for future use.
+ typeof
+ ------
+ is reserved for future use.
 
-val declares a read-only property or local variable.
+ val
+ ---
+ declares a read-only property or local variable.
 
-var declares a mutable property or local variable.
+ var
+ ---
+ declares a mutable property or local variable.
 
-when begins a when expression (executes one of the given branches).
+ when
+ ----
+ begins a when expression (executes one of the given branches).
 
-while begins a while loop (a loop with a precondition).
+ while
+ -----
+ begins a while loop (a loop with a precondition).
 
-Soft keywords
-The following tokens act as keywords in the context in which they are applicable, and they can be used as identifiers in other contexts:
+ Soft keywords
+ ==============
 
-by
+ by
+ --
 
-delegates the implementation of an interface to another object.
+ delegates the implementation of an interface to another object.
 
-delegates the implementation of the accessors for a property to another object.
+ delegates the implementation of the accessors for a property to another object.
 
-catch begins a block that handles a specific exception type.
+ catch
+ ------
+ begins a block that handles a specific exception type.
 
-constructor declares a primary or secondary constructor.
+ constructor
+ -----------
+ declares a primary or secondary constructor.
 
-delegate is used as an annotation use-site target.
+ delegate
+ --------
+ is used as an annotation use-site target.
 
-dynamic references a dynamic type in Kotlin/JS code.
+ dynamic
+ -------
+ references a dynamic type in Kotlin/JS code.
 
-field is used as an annotation use-site target.
+ field
+ -----
+ is used as an annotation use-site target.
 
-file is used as an annotation use-site target.
+file
+----
+is used as an annotation use-site target.
 
-finally begins a block that is always executed when a try block exits.
+finally
+-------
+begins a block that is always executed when a try block exits.
 
 get
+---
 
 declares the getter of a property.
 
 is used as an annotation use-site target.
 
-import imports a declaration from another package into the current file.
+import
+-------
+imports a declaration from another package into the current file.
 
-init begins an initializer block.
+ init
+ -----
+ begins an initializer block.
 
-param is used as an annotation use-site target.
+ param
+ ------
+ is used as an annotation use-site target.
 
-property is used as an annotation use-site target.
+ property
+ --------
+ is used as an annotation use-site target.
 
-receiveris used as an annotation use-site target.
+ receiver
+ ----------
+ is used as an annotation use-site target.
 
-set
+ set
+ ----
 
 declares the setter of a property.
 
 is used as an annotation use-site target.
 
-setparam is used as an annotation use-site target.
+setparam
+--------
+is used as an annotation use-site target.
 
-value with the class keyword declares an inline class.
+value
+-----
+with the class keyword declares an inline class.
 
-where specifies the constraints for a generic type parameter.
+where
+------
+specifies the constraints for a generic type parameter.
+
+
 
 Modifier keywords
+==================
 The following tokens act as keywords in modifier lists of declarations, and they can be used as identifiers in other contexts:
 
-abstract marks a class or member as abstract.
+abstract
+--------
+marks a class or member as abstract.
 
-actual denotes a platform-specific implementation in multiplatform projects.
+actual
+-------
+ denotes a platform-specific implementation in multiplatform projects.
 
-annotation declares an annotation class.
+annotation
+----------
+ declares an annotation class.
 
-companion declares a companion object.
+companion
+---------
+declares a companion object.
 
-const marks a property as a compile-time constant.
+const
+-----
+marks a property as a compile-time constant.
 
-crossinline forbids non-local returns in a lambda passed to an inline function.
+crossinline
+-----------
+forbids non-local returns in a lambda passed to an inline function.
 
-data instructs the compiler to generate canonical members for a class.
+data
+----
+instructs the compiler to generate canonical members for a class.
 
-enum declares an enumeration.
+enum
+----
+declares an enumeration.
 
-expect marks a declaration as platform-specific, expecting an implementation in platform modules.
+expect
+------
+marks a declaration as platform-specific, expecting an implementation in platform modules.
 
-external marks a declaration as implemented outside of Kotlin (accessible through JNI or in JavaScript).
+external
+--------
+marks a declaration as implemented outside of Kotlin (accessible through JNI or in JavaScript).
 
-final forbids overriding a member.
+final
+------
+forbids overriding a member.
 
-infix allows calling a function using infix notation.
+infix
+------
+allows calling a function using infix notation.
 
-inline tells the compiler to inline a function and the lambdas passed to it at the call site.
+inline
+------
+tells the compiler to inline a function and the lambdas passed to it at the call site.
 
-inner allows referring to an outer class instance from a nested class.
+ inner
+ -----
+ allows referring to an outer class instance from a nested class.
 
-internal marks a declaration as visible in the current module.
+ internal
+ --------
+ marks a declaration as visible in the current module.
 
-lateinit allows initializing a non-nullable property outside of a constructor.
+ lateinit
+ --------
+  allows initializing a non-nullable property outside of a constructor.
 
-noinline turns off inlining of a lambda passed to an inline function.
+noinline
+--------
+turns off inlining of a lambda passed to an inline function.
 
-open allows subclassing a class or overriding a member.
+open
+-----
+allows subclassing a class or overriding a member.
 
-operator marks a function as overloading an operator or implementing a convention.
+operator
+--------
+ marks a function as overloading an operator or implementing a convention.
 
-out marks a type parameter as covariant.
+out
+----
+marks a type parameter as covariant.
 
-override marks a member as an override of a superclass member.
+override
+--------
+marks a member as an override of a superclass member.
 
-private marks a declaration as visible in the current class or file.
+private
+-------
+marks a declaration as visible in the current class or file.
 
-protected marks a declaration as visible in the current class and its subclasses.
+protected
+---------
+ marks a declaration as visible in the current class and its subclasses.
 
-public marks a declaration as visible anywhere.
+public
+------
+marks a declaration as visible anywhere.
 
-reified marks a type parameter of an inline function as accessible at runtime.
+reified
+-------
+ marks a type parameter of an inline function as accessible at runtime.
 
-sealed declares a sealed class (a class with restricted subclassing).
+sealed
+------
+declares a sealed class (a class with restricted subclassing).
 
-suspend marks a function or lambda as suspending (usable as a coroutine).
+suspend
+-------
+marks a function or lambda as suspending (usable as a coroutine).
 
-tailrec marks a function as tail-recursive (allowing the compiler to replace recursion with iteration).
+tailrec
+--------
+marks a function as tail-recursive (allowing the compiler to replace recursion with iteration).
 
-vararg allows passing a variable number of arguments for a parameter.
+vararg
+ ------
+ allows passing a variable number of arguments for a parameter.
 
-Special identifiers
-The following identifiers are defined by the compiler in specific contexts, and they can be used as regular identifiers in other contexts:
+Special identifier
+==================
 
-field is used inside a property accessor to refer to the backing field of the property.
+The following identifiers are defined by the compiler in specific contexts,
+ and they can be used as regular identifiers in other contexts:
 
-it is used inside a lambda to refer to its parameter implicitly.
+field
+-----
+ is used inside a property accessor to refer to the backing field of the property.
+
+it
+---
+is used inside a lambda to refer to its parameter implicitly.
+
+
 
 */
 

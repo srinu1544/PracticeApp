@@ -1,12 +1,16 @@
 package com.example.practiceapp.Kotlin_Android.operators
 
 /*
+
+
+please refer : https://kotlinlang.org/docs/keyword-reference.html
+
 Operators and special symbols
 Kotlin supports the following operators and special symbols:
 
 +, -, *, /, % - mathematical operators
 
-* - is also used to pass an array to a vararg parameter.
+* is also used to pass an array to a vararg parameter.
 
 = - is assignment operator.
 
@@ -48,6 +52,7 @@ separates the parameters and return type declaration in a function type.
 
 separates the condition and body of a when expression branch.
 
+
 @ - introduces an annotation.
 
 introduces or references a loop label.
@@ -57,6 +62,7 @@ introduces or references a lambda label.
 references a 'this' expression from an outer scope.
 
 references an outer superclass.
+
 
 ; separates multiple statements on the same line.
 

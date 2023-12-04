@@ -64,12 +64,11 @@ fun checkShape(shape: com.example.practiceapp.Kotlin_Android.classes.Shape) {
 
     when(shape){
 
-        is com.example.practiceapp.Kotlin_Android.classes.Shape.Circle ->  println( 3.14 * shape.radius * shape.radius)
-        is _root_ide_package_.com.example.practiceapp.Kotlin_Android.classes.Shape.noShape -> println("no shape")
-        is _root_ide_package_.com.example.practiceapp.Kotlin_Android.classes.Shape.Rectangle -> println(shape.length * shape.breath)
-        is _root_ide_package_.com.example.practiceapp.Kotlin_Android.classes.Shape.Square -> println(shape.side * shape.side)
+        is Shape.Circle ->  println( 3.14 * shape.radius * shape.radius)
+        is Shape.noShape -> println("no shape")
+        is Shape.Rectangle -> println(shape.length * shape.breath)
+        is Shape.Square -> println(shape.side * shape.side)
     }
-
 
 }
 
@@ -77,19 +76,18 @@ fun checkShape(shape: com.example.practiceapp.Kotlin_Android.classes.Shape) {
 fun main(){
 
     var circle =
-        _root_ide_package_.com.example.practiceapp.Kotlin_Android.classes.Shape.Circle(2.0f)
+        Shape.Circle(2.0f)
     var rect =
-        _root_ide_package_.com.example.practiceapp.Kotlin_Android.classes.Shape.Rectangle(
+        Shape.Rectangle(
             5,
             10
         )
     var square =
-        _root_ide_package_.com.example.practiceapp.Kotlin_Android.classes.Shape.Square(4)
+        Shape.Square(4)
 
     var noShape =
-        _root_ide_package_.com.example.practiceapp.Kotlin_Android.classes.Shape.noShape
-
-    _root_ide_package_.com.example.practiceapp.Kotlin_Android.classes.checkShape(noShape)
+        Shape.noShape
+    checkShape(noShape)
 }
 
 
