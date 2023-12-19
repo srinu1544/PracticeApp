@@ -17,6 +17,7 @@ fun printduplicateinString() {
     }
     println(duplicates)
 }
+// out put [s,i]
 
 
 fun printWithOutDuplicatesInString() {
@@ -35,6 +36,8 @@ fun printWithOutDuplicatesInString() {
 
     println(duplicates)
 }
+
+// out put [s, r, i, n, v, a]
 
 
 fun printduplicateinIntArray() {
@@ -55,6 +58,8 @@ fun printduplicateinIntArray() {
     println(duplicates)
 }
 
+//out put [4, 5, 6]
+
 
 fun printWithOutDuplicatesInIntArray() {
 
@@ -70,6 +75,8 @@ fun printWithOutDuplicatesInIntArray() {
     }
     println(duplicates)
 }
+
+// output [1, 2, 3, 4, 5, 6, 66]
 
 
 fun main() {

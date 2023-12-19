@@ -2,20 +2,22 @@ package com.example.practiceapp.ui.theme.demo
 
 
 
-fun main(args: Array<String>) {
-    val str = "Hello World"
-    val charCountMap = mutableMapOf<Char, Int>()
-    for (char in str) {
-        charCountMap[char] = charCountMap.getOrDefault(char, 0) + 1
-        println("$char")
-    }
-    val maxChar = charCountMap.maxByOrNull { it.value }
-    println("The highest repeated char is ${maxChar?.key} and it repeats ${maxChar?.value} times")
-}
 
 
 
+  /*  fun main(args: Array<String>) {
+        val numbers = listOf(1, 2, 3, 4, 5)
+        val sum = numbers.fold(0) { acc, i -> acc + i }
+        println(sum) // prints 15
+    }*/
 
+
+  fun main(){
+
+      val num = listOf(1,2,5)
+      val sum = num.fold(0) { acc , i -> acc+i  }
+      println(sum)
+  }
 
 
 

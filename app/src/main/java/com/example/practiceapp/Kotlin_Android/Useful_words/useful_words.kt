@@ -18,6 +18,13 @@ retrieved   -- తిరిగి పొందబడింది
 corresponding -- సంబంధిత
 distinct      -- విభిన్న
 evaluate      -- మూల్యాంకనం చేయండి
+regardless    -- సంబంధం లేకుండా
+indefinitely  -- నిరవధికంగా
+facade        -- ముఖభాగం
+composable    -- కూర్చదగిన
+rather than   -- దానికన్నా
+
+
 
 
 

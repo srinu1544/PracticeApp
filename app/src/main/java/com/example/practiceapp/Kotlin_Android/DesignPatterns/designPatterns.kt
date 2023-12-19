@@ -6,7 +6,7 @@ What Does Design Pattern Mean?
 A design pattern is a repeatable solution to a software engineering problem. Unlike most program-specific solutions, design patterns are used in many programs. Design patterns are not considered finished products; rather, they are templates that can be applied to multiple situations and can be improved over time, making a very robust software engineering tool. Because development speed is increased when using a proven prototype, developers using design pattern templates can improve coding efficiency and final product readability.
 
 Pattern #1 👌 Singleton
-Pattern #2 👌 Factory :
+Pattern #2 👌 Factory
 Pattern #3 👌 Builder
 Pattern #4 👌 Facade
 Pattern #5 👌 Dependency Injection
@@ -41,18 +41,12 @@ Consistency across multiple threads
 
 
 
-
-
-
 Pattern #2 👌 Factory :
 
 As the name suggests, Factory takes care of all the object creational logic.
 In this pattern, a factory class controls which object to instantiate. Factory
 pattern comes in handy when dealing with many common objects. You can use it
 where you might not want to specify a concrete class.
-
-
-
 
 
 
@@ -113,17 +107,20 @@ in its constructor:
 
 
 
-
-Pattern #6 👌 Adapter]
+Pattern #6 👌 Adapter
 
 The adapter pattern works as a bridge between two incompatible interfaces.
 
-This pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces. A real life example could be a case of card reader which acts as an adapter between memory card and a laptop. You plugin the memory card into card reader and card reader into the laptop so that memory card can be read via laptop.
+This pattern involves a single class which is responsible to join functionalities of independent or
+incompatible interfaces. A real life example could be a case of card reader which acts as an adapter
+between memory card and a laptop. You plugin the memory card into card reader and card reader into the
+laptop so that memory card can be read via laptop.
 
 to dive deep in adapter design pattern check this article below
 https://www.geeksforgeeks.org/adapter-pattern/
 
 
 Link :  https://medium.com/@ahmadkazimi/6-design-patterns-every-android-developer-must-know-53d912b5864b
+
 */
 

@@ -1,6 +1,11 @@
 package com.example.practiceapp.Kotlin_Android.collections
 
 
+//https://developer.android.com/codelabs/basic-android-kotlin-compose-higher-order-functions#8
+
+//https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/
+
+
 
 /*
        Immutable          Mutable

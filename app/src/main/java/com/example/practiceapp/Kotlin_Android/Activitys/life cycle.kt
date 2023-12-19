@@ -42,5 +42,29 @@ user interface state, and handle interruptions gracefully.
 how to maintain backstack in android activity :
 With the use of launch modes we maintain backstack in android
 
+
+Clickings :
+------------
+Activity A
+
+onCreate
+onStart
+onResume
+
+if hoeme click
+onpause
+
+if again come to acticity
+onStart
+onResume
+
+if back button click
+
+
+
+
+
+
+
 Refer :
 https://medium.com/wiselteach/activity-back-stack-and-launch-mode-part-1-693130682120*/

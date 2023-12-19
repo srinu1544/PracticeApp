@@ -23,6 +23,7 @@ private MutableLiveData<String> dataLiveData = new MutableLiveData<>();
 public LiveData<String> getDataLiveData() {
     return dataLiveData;
 }
+
 Update LiveData:
 Whenever you want to update the data held by the LiveData, you can use the
 setValue or postValue methods. Usually, this is done in response to some data changes or

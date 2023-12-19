@@ -20,4 +20,13 @@ Updating AuthToken for failed requests
 Interceptors function similarly to airport security personnel during the security check
 process.
 
+
+types of Interceptors :
+-----------------------
+
+
+
+
+
+
  */

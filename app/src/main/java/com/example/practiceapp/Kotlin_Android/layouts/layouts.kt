@@ -64,7 +64,8 @@ ConstraintLayout improves UI performance over other layouts.
 It also makes it easier for developers to build complex UI designs
 
 Introduced in recent versions of Android, this layout allows you to create complex layouts
-with a flat view hierarchy. You can set constraints between views, making it easy to create responsive and
+with a flat view hierarchy. You can set constraints between views, making it easy to create
+responsive and
 flexible designs.
 
 Custom Layouts:
@@ -75,6 +76,19 @@ Choosing the right layout type depends on your app's specific design requirement
 combination of these layouts within your app's hierarchy to achieve the desired UI structure. Additionally,
 Android's layout system is continually evolving, so be sure to check the latest documentation and best practices for the most up-to-date information.
 
+
+coordinate layout :
+-------------------
+
+CoordinatorLayout is a super-powered FrameLayout.
+
+CoordinatorLayout is a general-purpose container that allows for coordinating interactive behaviorsbetween its children.CoordinatorLayout manages interactions between its children, and as such needs to contain all the Views that interact with each other. The two general cases supported by CoordinatorLayout are:
+
+As a top-level content layout (meaning CoordinatorLayout is at the root of all views within an activity or fragment).
+As a container for a specific interaction with one or more child views.
+By specifying Behaviors for child views of a CoordinatorLayout you can provide many different interactions within a single parent and those views can also interact with one another.
+
+https://medium.com/android-news/coordinatorlayout-basic-8040c74cf426#:~:text=CoordinatorLayout%20is%20a%20general%2Dpurpose,that%20interact%20with%20each%20other.
 
 */
 

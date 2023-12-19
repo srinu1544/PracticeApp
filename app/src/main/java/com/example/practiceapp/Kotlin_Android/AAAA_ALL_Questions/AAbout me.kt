@@ -9,22 +9,37 @@ i have 6.2 years of experience as a software engineer
 I've been working in the field of Android development for  6.2 years. During this time,
 I've had the opportunity to work on a variety of projects ,  i done so many applications
 related to multiple domains like health care, educational applications, E-commerse
-application traveling related applications, iot related applications ,
+application traveling related applications, iot related applications, telecom applications , automobile applications ,
 
 I have a strong background in Android app development, and I'm passionate about creating innovative
 and user-friendly mobile applications.
 
 I am proficient in Java and Kotlin I've also had experience working with popular Android libraries
 and frameworks Retrofit, Dagger2, Android Architecture Components, jetpack components and I am aware
-of using project management tools like git and  jira and agile methodology
+of using project management tools like git and  jira and agile methodology and working with asure pile lines
+and testing tools like junit, mockito and Espresso .
 
 One of my strengths as a developer is my ability to collaborate effectively with cross-functional
 teams, including designers and product managers, to deliver high-quality applications that meet
 both user needs and business goals. I also have a strong problem-solving mindset, which has allowed
 me to troubleshoot complex issues and optimize app performance.
 
-This experience taught me the importance of not only writing clean and maintainable code but also
-ensuring that the user experience is seamless and delightful.
+
+rolls and responsibility
+
+Android developers have many responsibilities, including:
+Design and develop apps
+Optimize app performance
+Collaborate with teams
+Address bugs
+Write code
+Debug apps
+Troubleshoot bugs
+attend client calls
+scrum calls
+
+
+
 
                         ----------------------------------------------
 

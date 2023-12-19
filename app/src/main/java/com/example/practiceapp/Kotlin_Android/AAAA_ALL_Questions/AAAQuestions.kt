@@ -197,17 +197,17 @@ difference between include and merge in XML  @#
 
 Jetpack Components
 ------------------
-what are Coroutines    @#
-what is MVVM           @#
-what is dependency injection  @#
-what is view model            @#
-what is livedata              @#
-what is data binding          @#
-what is view binding          @#
-what is RxJava , RxAndroid    @#
-navigation (xml)              @#      (code is in own framework project)
-navigation (compose)          @#     (code is in own framework project)
-what is a Repository?         @#
+Coroutines             @#
+MVVM                   @#
+dependency injection   @#
+view model             @#
+livedata               @#
+data binding           @#
+view binding           @#
+RxJava , RxAndroid     @#
+navigation (xml)       @#      (code is in own framework project)
+navigation (compose)   @#     (code is in own framework project)
+what is a Repository?  @#
 
 
 code
@@ -332,12 +332,36 @@ APK - Android Package Kit
 (ART) - Android Runtime
 (AOT) - Ahead-Of-Time
 (AOSP) - android open source project
+ASAP: As soon as possible
+ALAP: As late as possible
+ATAP: As timely as possible
+LOL: Laugh out loud
+YOLO: You only live once
+WIP: Work in progress
+FOMO: Fear of missing out
+PIN: Personal Identification Number
+
+Test Driven Development (TDD)
+An agile methodology where tests are written before code is developed.
+
+Acceptance Test-Driven Development (ATDD)
 
 
 
-useful links
+useful links  or websites
 ------------
-https://www.youtube.com/watch?v=8OdId23cmCU   --  jetpack compose.
+jetpack compose. --- https://www.youtube.com/watch?v=8OdId23cmCU
+
+websites :
+---------
+
+Regexioi.com --- test and save regulat expression
+mockaroo.com  --- create take data this can be very helpful for testing or display ristance data
+dev.to
+explainshell.com --- unix command
+Draw.io          ---- draw software architecture diagrams
+
+
 
 
 
@@ -375,6 +399,7 @@ difference between singleton class and class?
 sealed class, sealed interface
 diff overloading overriding
 diff bw R8 and proguard                                    -@#?
+diff bw const vs val
 
 
 
@@ -475,6 +500,7 @@ what is ktx -
 what is just and promt in kotlin -
 solid principals -
 state in jetpack compose  -
+what is composable function ?
 dispatches in  coroutines -
 with out higher order function can we use lambda expression -
 what is interpolation string -
@@ -485,11 +511,42 @@ JVM
 android architecture
 shared sheet
 destructure
+write a code single ton class with thread safe ?
+what is "is" keyword ?
+what is "as" keyword ?
+how to send push notification from firebase
+how to send push notification from firebase for particular user.
+
+
+how to check types of elements in kotlin ?
+ans : var myVariable: Any = 10
+
+if (myVariable is Int) {
+  println("myVariable is an Int")
+} else {
+  println("myVariable is not an Int")
+}
+
+what is verify method ?
+ans : can be used to verify if a method on a mock object has been called.
+
+combine a string?
+ans :  Using the + operator:
+       append() function
+       "$name $age"
+       joinToString()
+
 
 
 what happen if duplicate keys in hashMap ? --  imp
 ans : A Java HashMap cannot have duplicate keys. If a key already exists in the HashMap, the old
 value associated with that key is replaced with the new value, override with new value.
+
+what is interceptor and they types? imp
+
+how to handle configurations changes ? imp
+
+when we use higher order function ?
 
 flow
 stateflow

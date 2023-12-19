@@ -1,5 +1,11 @@
 package com.example.practiceapp.Kotlin_Android.AboutAndroid
 
+import androidx.compose.foundation.Image
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.tooling.preview.Preview
+import com.example.practiceapp.R
+
 /*Android architecture is a software stack that supports the needs of mobile devices.
  It's made up of five levels:
 
@@ -107,3 +113,10 @@ A common architecture used by Android developers is MVC, or Model-View-Controlle
 
 
 */
+
+@Preview
+@Composable
+fun AndroidArch(){
+
+    Image(painter = painterResource(id = R.drawable.architecture), contentDescription = null)
+}

@@ -1,13 +1,17 @@
 package com.example.practiceapp.Kotlin_Android.RxAndroid
 
-/*RxAndroid is an extension of RxJava that includes Android threads.
-RxAndroid adds schedulers that help support multi-thread operations in Android.
-Schedulers decide if a block of code should run on the main thread or a worker thread.
+/*
 
-RxJava is a reactive programming library that uses observable sequences to handle asynchronous
-and event-based programming. The main building blocks of RxJava are: Observables, Operators,
- Observer.
+RxAndroid is an extension of RxJava for Android applications. It adds the Android-required Main Thread,
+which is needed for multithreading in Android. RxAndroid also provides AndroidSchedulers.
 
-Reactive Extensions (Rx) is a set of interfaces and methods that help developers solve problems
-quickly. Rx is also known as ReactiveX.
+RxAndroid contains the Android threads to be used in the Android Environment. It adds the minimum classes
+to RxJava that make writing reactive components in Android applications easy.
+
+RxJava is a JVM library for doing asynchronous and executing event-based programs by using observable
+sequences. It uses different threads, such as a background thread for the network call and the main
+thread for updating the UI.
+RxAndroid and RxKotlin use the same rxjava types, so they can interoperate freely.
+
+
 */

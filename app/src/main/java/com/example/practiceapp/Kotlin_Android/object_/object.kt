@@ -44,3 +44,18 @@ anonymousObject.printName() // Prints "Anonymous Object"
 
 
 */
+
+// Expression Syntax
+fun main() {
+
+    val myObject = object {
+        val valueOne = "L"
+        val valueTwo = "A"
+        fun sum() {
+            val result = valueOne + valueTwo
+            println("The sum is: $result")
+        }
+    }
+
+    myObject.sum()
+}

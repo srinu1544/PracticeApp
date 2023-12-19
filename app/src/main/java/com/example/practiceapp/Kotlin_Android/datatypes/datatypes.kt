@@ -1,7 +1,23 @@
 package com.example.practiceapp.Kotlin_Android.datatypes/*
-package com.example.practiceapp.datatypes
+
+
+please refer : https://www.codecademy.com/resources/docs/kotlin/data-types
 
 Data type
+
+primitive data types and non-primitive data types :
+
+primitive data types :
+---------------------
+
+Boolean
+Byte
+Char
+Double
+Float
+Int
+Long
+Short
 
 Numbers Type :
 Byte
@@ -13,8 +29,20 @@ Double
 char
 boolean
 
-Strings
-Array
+
+non- primitive data types :
+---------------------------
+
+Any
+Arrays
+Class
+Enum
+List
+Map
+Nothing
+Set
+String
+Unit
 
 
 Kotlin, like many programming languages, has a variety of data types that allow you to work with different kinds of data. Here are some of the common data types in Kotlin:
@@ -32,6 +60,11 @@ Kotlin, like many programming languages, has a variety of data types that allow 
 
 3. **Booleans**:
 - `Boolean`: Represents a true or false value.
+
+
+
+non- primitive data types :
+---------------------------
 
 4. **Text**:
 - `String`: Represents a sequence of characters.

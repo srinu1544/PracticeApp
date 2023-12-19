@@ -132,6 +132,8 @@ https://www.youtube.com/watch?v=3q5dvywJMfo&ab_channel=Smartherd
     Dispatchers.Io -> network request or desk read and write
     Dispatchers.Main -> main safety
     Dispatcher.Default
+    Dispatchers.Unconfined
+
 
     Dispatchers.Default :
     ---------------------

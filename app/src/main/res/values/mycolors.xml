@@ -16,6 +16,18 @@
     <color name="orrange">#F7853E</color>
     <color name="wallgreen">#1C5975</color>
     <color name="sky">#CCF3F4</color>
+    <color name="bikegreen">#D8EC05</color>
+    <color name="bikegray">#49494D</color>
+    <color name="titaneyeplus">#00A8BD</color>
+    <color name="motor_graph">#01D3B0</color>
+    <color name="mygreen">#78A530</color>
+    <color name="mygreenlite">#C1ED79</color>
+    <color name="sbicardbaground">#013F54</color>
+    <color name="acidgreen">#B5B226</color>
+    <color name="parrotgreen">#A8AE23</color>
+    <color name="dressgreen">#088D7F</color>
+    <color name="background">#171717</color>
+
 
 
 </resources>

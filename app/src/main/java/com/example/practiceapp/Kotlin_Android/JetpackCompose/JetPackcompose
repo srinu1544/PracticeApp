@@ -15,15 +15,18 @@ more declarative ui code with few lines of code.
 
 
 box :
+-----
 -> Box to stack elements
 -> box layout similar to the frame layout
 -> In Jetpack Compose, a box is a component used to arrange objects in layers.
 -> child elements are stacked on top of each other.
 
 Column :
+--------
 -> arrange elements vertically.
 
  Row :
+ -----
 -> arrange items horizontally
 
 modifier:
@@ -36,6 +39,20 @@ Add information, like accessibility labels
 Process user input
 Add high-level interactions, like making an element clickable, scrollable, draggable, or zoomable
 Modifiers are standard Kotlin objects. Create a modifier by calling one of the Modifier class functions:
+
+
+Composable functions
+---------------------
+Jetpack Compose is built around composable functions. These functions let you define your
+app's UI programmatically by describing how it should look and providing data dependencies,
+rather than focusing on the process of the UI's construction (initializing an element,
+attaching it to a parent, etc.). To create a composable function, just add the @Composable
+annotation to the function name.
+
+To make a function composable, add the @Composable
+
+
+
 
 @Composable
 private fun Greeting(name: String) {

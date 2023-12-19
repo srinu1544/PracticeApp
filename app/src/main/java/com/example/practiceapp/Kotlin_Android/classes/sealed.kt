@@ -47,6 +47,8 @@ why we use sealed class :
 
 sealed class Shape {
 
+
+
     class Circle(val radius : Float) : com.example.practiceapp.Kotlin_Android.classes.Shape()
 
     class Rectangle(val length :Int , val breath : Int) : com.example.practiceapp.Kotlin_Android.classes.Shape()

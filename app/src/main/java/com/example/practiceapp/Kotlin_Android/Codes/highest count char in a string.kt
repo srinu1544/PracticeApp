@@ -13,11 +13,11 @@ fun main(args: Array<String>) {
 }
 
 
-fun highestCountChar(){
+fun highestCountChar() {
 
     val str = "hello"
-   val  charCountMap =  mutableMapOf<Char,Int>()
-    for (char in str){
+    val  charCountMap =  mutableMapOf<Char,Int>()
+    for (char in str) {
         charCountMap[char] = charCountMap.getOrDefault(char,0) +1
     }
 

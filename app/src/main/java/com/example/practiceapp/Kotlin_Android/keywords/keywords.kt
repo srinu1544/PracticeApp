@@ -36,7 +36,7 @@ These keywords are reserved words that have special meaning to the Kotlin compil
 
  do
  ---
- begins a do/while loop (a loop with a postcondition).
+ begins a do/while loop (a loop with a post condition).
 
  else
  -----
